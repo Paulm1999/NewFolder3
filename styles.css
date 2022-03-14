@@ -1,0 +1,147 @@
+.body{ 
+     margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    
+}
+.container{
+    display: grid;
+    background-color: white
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    font-size: 15px;
+    
+    
+    
+    
+    
+   
+
+}
+.AllSystemsOperational{
+   background-color: #00b300;
+    grid-column: 1/4;
+    grid-row: 1/4;
+    font-size: large;
+    color: white;
+    
+    
+}
+.content1{
+    display: flex;
+    background-color: white;
+
+    
+
+}
+.Engine_status{
+    flex: 1;
+   
+
+}
+.UI_status{
+    flex: 1;
+    margin-right: 20px;
+
+}
+.SYSTEM_SLEEP{
+    padding: 5px;
+    outline:2px solid #9933ff;
+    flex: 1;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    justify-content: flex-end;
+    
+    
+   
+
+}
+.left_side{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr; 
+    grid-row-gap: 15px;
+    display: flexbox
+    
+    
+}
+.Scheduling_Engine{
+    padding: 10px;
+    outline:2px solid #00b300;
+}
+.Job_Queue{
+    padding: 10px;
+    outline:2px solid #00b300;
+}
+.QAScriptService{
+    padding: 10px;
+    outline:2px solid red
+   
+    
+    
+}
+.centre_{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 15px;
+    grid-row: 3/4;
+}
+.Worker_Pool{
+    padding: 10px;
+    outline:2px solid #00b300;
+}
+.Output_Factory{
+    padding: 10px;
+    outline:2px solid #00b300;
+}
+.Indexing_Service{
+    padding: 10px;
+    outline:2px solid grey
+}
+.right_side{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 15px;
+    
+}
+.Job_Manager{
+    padding: 10px;
+    outline:2px solid #ff9933
+
+
+}
+.CRUD_Management{
+    padding: 10px;
+    outline:2px solid #00b300;
+
+}
+.footer{
+    display: flex;
+    grid-column: 1/4;
+    background-color: whitesmoke;
+    justify-content: flex-end;
+    align-self: flex-end;
+
+
+}
+.Operational{
+    flex: 1;
+    
+
+}
+.Service_Disrpution{
+    flex: 1;
+
+}
+.Service_Outage{
+    flex: 1;
+    margin-left: 100px;
+
+}
+.Unavailable{
+    flex: 1;
+    margin-inline-end: auto;
+
+}
