@@ -5,7 +5,9 @@
     
 }
 .container{
+    justify-content: center;
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: white
     padding: 10px;
     position: relative;
@@ -13,12 +15,7 @@
     grid-column-gap: 15px;
     grid-row-gap: 15px;
     font-size: 15px;
-    
-    
-    
-    
-    
-   
+     
 
 }
 .AllSystemsOperational{
@@ -39,9 +36,11 @@
 }
 .Engine_status{
     flex: 1;
+    
    
 
 }
+
 .UI_status{
     flex: 1;
     margin-right: 20px;
