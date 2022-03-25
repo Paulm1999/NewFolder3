@@ -7,8 +7,7 @@
 .container{
     justify-content: center;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: white
+    background-color: white;
     padding: 10px;
     position: relative;
     width: 100%;
@@ -24,6 +23,8 @@
     grid-row: 1/4;
     font-size: large;
     color: white;
+    padding: 10px;
+    
     
     
 }
@@ -43,8 +44,7 @@
 
 .UI_status{
     flex: 1;
-    margin-right: 20px;
-
+   
 }
 .SYSTEM_SLEEP{
     padding: 5px;
@@ -58,6 +58,16 @@
    
 
 }
+.maincontent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 15px;
+    column-gap: 15px;
+    padding: 100px;
+    
+    
+    
+}
 .left_side{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr; 
@@ -65,18 +75,23 @@
     display: flexbox
     
     
+    
 }
 .Scheduling_Engine{
     padding: 10px;
     outline:2px solid #00b300;
+    
+    
 }
 .Job_Queue{
     padding: 10px;
     outline:2px solid #00b300;
+    
 }
 .QAScriptService{
     padding: 10px;
     outline:2px solid red
+   
    
     
     
@@ -94,6 +109,7 @@
 .Output_Factory{
     padding: 10px;
     outline:2px solid #00b300;
+    
 }
 .Indexing_Service{
     padding: 10px;
