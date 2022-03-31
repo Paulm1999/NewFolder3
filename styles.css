@@ -11,15 +11,16 @@
     padding: 10px;
     position: relative;
     width: 100%;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
     font-size: 15px;
      
 
 }
 .AllSystemsOperational_container{
     width:80%;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 .AllSystemsOperational{
    background-color: #00b300;
@@ -32,7 +33,6 @@
     
     
 }
-
 .content1{
     display: flex;
     background-color: white;
@@ -43,55 +43,36 @@
 .Engine_status{
     display: flex;
     align-items: center;
-    flex: 1;
-    
+    padding: 5px;
    
 
 }
 .engine_status_title{
-    padding-right: 5px;
+    padding: 5px;
 }
-.UI_status{
-   display: flex;
-   align-items: center;
-    flex: 1;
-
-   
-}
-.UI_status_title{
-    padding-right: 5px;
+.UI_Status{
+    padding: 5px;
 }
 .SYSTEM_SLEEP{
-    padding: 5px;
+   margin: 20px;
+   padding: 5px;
     outline:2px solid #9933ff;
-    flex: 1;
-    margin-left: 50px;
-    margin-bottom: 50px;
-    justify-content: flex-end;
-    
-    
-   
-
+   display:flex;
+   border-radius: 6px;
+}
+.system_sleep_title{
+    display: flex;
+    align-items: center;
+    padding: 5px;
 }
 .maincontent{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 15px;
     column-gap: 15px;
-    padding: 100px;
-    
-    
-    
+    /* padding: 100px; */
 }
-.left_side{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr; 
-    grid-row-gap: 15px;
-    display: flexbox
-    
-    
-    
-}
+
 .Scheduling_Engine{
     padding: 10px;
     outline:2px solid #00b300;
@@ -235,4 +216,3 @@
   .slider.round:before {
     border-radius: 50%;
   }
-  
