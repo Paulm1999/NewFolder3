@@ -52,8 +52,14 @@
     padding-right: 5px;
 }
 .UI_status{
+   display: flex;
+   align-items: center;
     flex: 1;
+
    
+}
+.UI_status_title{
+    padding-right: 5px;
 }
 .SYSTEM_SLEEP{
     padding: 5px;
@@ -229,3 +235,4 @@
   .slider.round:before {
     border-radius: 50%;
   }
+  
