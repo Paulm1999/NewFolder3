@@ -91,15 +91,31 @@
 .Job_Queue{
     padding: 10px;
     outline:2px solid #00b300;
+
+    display: flex;
+    justify-content: space-between;
     
+}
+.box_title{
+    display: flex;
+    align-items: center;
+}
+.box_status{
+    display: flex;
 }
 .QAScriptService{
     padding: 10px;
     outline:2px solid red
-   
-   
-    
-    
+
+    display: flex;
+    justify-content: space-between;
+}
+.box_title{
+    display: flex;
+    align-items: center;
+}
+.box_status{
+    display: flex;
 }
 .centre_{
     display: grid;
@@ -110,32 +126,83 @@
 .Worker_Pool{
     padding: 10px;
     outline:2px solid #00b300;
+
+    display: flex;
+    justify-content: space-between;
+}
+.box_title{
+    display: flex;
+    align-items: center;
+}
+.box_status{
+    display: flex;
 }
 .Output_Factory{
     padding: 10px;
     outline:2px solid #00b300;
+
+    display: flex;
+    justify-content: space-between;
     
+}
+.box_title{
+    display: flex;
+    align-items: center;
+}
+.box_status{
+    display: flex;
 }
 .Indexing_Service{
     padding: 10px;
     outline:2px solid grey
+
+    display: flex;
+    justify-content: space-between;
+}
+.box_title{
+    display: flex;
+    align-items: center;
+}
+.box_status{
+    display: flex;
 }
 .right_side{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-row-gap: 15px;
+
+    display: flex;
+    justify-content: space-between;
     
 }
 .Job_Manager{
     padding: 10px;
     outline:2px solid #ff9933
 
-
+    display: flex;
+    justify-content: space-between;
+}
+.box_title{
+    display: flex;
+    align-items: center;
+}
+.box_status{
+    display: flex;
 }
 .CRUD_Management{
     padding: 10px;
     outline:2px solid #00b300;
 
+    display: flex;
+    justify-content: space-between;
+
+}
+.box_title{
+    display: flex;
+    align-items: center;
+}
+.box_status{
+    display: flex;
 }
 .footer{
     display: flex;
@@ -151,19 +218,39 @@
     
 
 }
+.operational_title{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
 .Service_Disrpution{
     flex: 1;
 
+}
+.service_disruption_title{
+    display: flex;
+    align-items: center;
+    padding: 5px;
 }
 .Service_Outage{
     flex: 1;
     margin-left: 100px;
 
 }
+.service_outage_title{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
 .Unavailable{
     flex: 1;
     margin-inline-end: auto;
 
+}
+.unavailable_title{
+    display: flex;
+    align-items: center;
+    padding: 5px;
 }
 /*toggle styles  */
 .switch {
