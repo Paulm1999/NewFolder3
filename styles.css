@@ -77,7 +77,16 @@
     padding: 10px;
     outline:2px solid #00b300;
     
-    
+    display: flex;
+    justify-content: space-between;
+
+}
+.box_title{
+    display: flex;
+    align-items: center;
+}
+.box_status{
+    display: flex;
 }
 .Job_Queue{
     padding: 10px;
