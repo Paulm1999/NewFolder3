@@ -14,7 +14,8 @@
     grid-column-gap: 15px;
     grid-row-gap: 15px;
     font-size: 15px;
-     
+    
+    
 
 }
 .AllSystemsOperational_container{
@@ -74,26 +75,32 @@
 }
 
 .Scheduling_Engine{
-    padding: 10px;
+    padding: 3px;
     outline:2px solid #00b300;
     
     display: flex;
     justify-content: space-between;
+    width: 322px;
+    height: 35px;
 
 }
 .box_title{
     display: flex;
     align-items: center;
+  
 }
 .box_status{
     display: flex;
 }
 .Job_Queue{
-    padding: 10px;
+    padding: 3px;
     outline:2px solid #00b300;
 
     display: flex;
     justify-content: space-between;
+    width: 322px;
+    height: 35px;
+
     
 }
 .box_title{
@@ -104,11 +111,13 @@
     display: flex;
 }
 .QAScriptService{
-    padding: 10px;
-    outline:2px solid red
-
+    padding: 3px;
+    outline:2px solid red;
     display: flex;
     justify-content: space-between;
+    width: 322px;
+    height: 35px;
+
 }
 .box_title{
     display: flex;
@@ -154,7 +163,7 @@
 }
 .Indexing_Service{
     padding: 10px;
-    outline:2px solid grey
+    outline:2px solid grey;
 
     display: flex;
     justify-content: space-between;
@@ -177,7 +186,7 @@
 }
 .Job_Manager{
     padding: 10px;
-    outline:2px solid #ff9933
+    outline:2px solid #ff9933;
 
     display: flex;
     justify-content: space-between;
@@ -210,7 +219,8 @@
     background-color: whitesmoke;
     justify-content: flex-end;
     align-self: flex-end;
-
+    
+    
 
 }
 .Operational{
@@ -312,3 +322,4 @@
   .slider.round:before {
     border-radius: 50%;
   }
+  
