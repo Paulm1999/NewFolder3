@@ -211,8 +211,10 @@
     display: flex;
 }
 .footer{
+    display: flex;
     margin-top: 20px;
     justify-content: flex-end;
+    background-color: whitesmoke;
    
 }
  .div{
@@ -232,7 +234,7 @@
     align-items: center;
     padding: 5px;
 }
-.Service_Disrpution{
+.Service_Disruption{
     display: flex;
     
     
