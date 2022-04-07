@@ -211,24 +211,17 @@
     display: flex;
 }
 .footer{
-    display: flex;
-    grid-column: 1/4;
-    background-color: whitesmoke;
+    margin-top: 20px;
+    justify-content: flex-end;
    
-    align-self: flex-end;
-    padding-left: 805px;
-    justify-content: space-between;
-    
-    
-    
-    
-    
-    
-
+}
+.div{
+    display: flex;
+    justify-content: flex-end;
 }
 .Operational{
     display: flex;
-    order: 1;
+  
     
  
     
@@ -241,7 +234,7 @@
 }
 .Service_Disrpution{
     display: flex;
-    order: 2;
+    
     
 
 }
@@ -252,8 +245,7 @@
 }
 .Service_Outage{
     display: flex;
-    margin-left: 100px;
-    order: 3;
+    
 
 }
 .service_outage_title{
@@ -263,8 +255,7 @@
 }
 .Unavailable{
     display: flex;
-    margin-inline-end: auto;
-    order: 4;
+   
 
 }
 .unavailable_title{
