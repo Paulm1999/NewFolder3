@@ -215,9 +215,9 @@
     justify-content: flex-end;
    
 }
-.div{
+ div{
     display: flex;
-    justify-content: flex-end;
+    
 }
 .Operational{
     display: flex;
